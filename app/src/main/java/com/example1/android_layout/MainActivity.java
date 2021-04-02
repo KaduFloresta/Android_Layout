@@ -8,6 +8,14 @@ import android.os.Bundle;
 
     // Criação de Strings usando o strings.xml
 
+        /*
+        Para alterar a orientação da tela, alteração no arquivo AndroidManifest
+        android:screenOrientation="valor"
+        Portrait - Paisagem
+        Landscape - Retrato
+        Sensor - Ambos
+        */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
