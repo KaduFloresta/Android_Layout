@@ -9,14 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Layout">
-
-        <!---
-        Para alterar a orientação da tela, alteração no arquivo AndroidManifest
-        android:screenOrientation="valor"
-        Portrait - Paisagem
-        Landscape - Retrato
-        Sensor - Ambos
-        -->
         <activity
             android:name=".MainActivity"
             android:screenOrientation="sensor">
